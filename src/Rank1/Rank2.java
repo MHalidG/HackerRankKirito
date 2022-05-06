@@ -2,7 +2,7 @@ package Rank1;
 import java.util.*;
 public class Rank2 {
     public static void main(String[] args) {
-
+//Java Stdin and Stdout I
               Scanner scan=new Scanner(System.in);
 
               int n= scan.nextInt();

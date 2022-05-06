@@ -3,6 +3,9 @@ package Rank1;
 import java.util.Scanner;
 
 public class Rank4 {
+
+    //Java Stdin and Stdout II
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 

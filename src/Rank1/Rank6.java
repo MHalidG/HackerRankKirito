@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Rank6 {
                 public static void main(String[] args) {
                 /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-
+//Java Loops I
                 Scanner in=new Scanner(System.in);
 
                 int t=in.nextInt();

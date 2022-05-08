@@ -1,48 +1,44 @@
-package Rank1;
+/*
+public static String getSmallestAndLargest(String s, int k) {
+        String smallest ="";
+        String largest="";
+        List<String> list = new ArrayList<>();
 
-import java.text.FieldPosition;
-import java.text.NumberFormat;
-import java.text.ParsePosition;
-import java.util.*;
-
-public class Deneme_Class {
-    public static void main(String[] args) {
-       /* String str="123123123";
-        System.out.println(Integer.valueOf(str));
-        int a= Integer.valueOf(str);
-        System.out.println(a);*/
-
-    /*    double a=87789.1231;
-
-        NumberFormat nmb=NumberFormat.getCurrencyInstance();*/
-        String s="welcometojava";
-        getSmallestAndLargest(s,3);
-    }
-        public static String getSmallestAndLargest(String s, int k) {
-            String smallest ="";
-            String largest = "";
-            List<String> splitted=new ArrayList<>(Arrays.asList());
-
-            for (int i = 1; i-1+k <s.length() ; i++) {
-                splitted.add(s.substring(i-1, i-1+k));
-                splitted.add(s.substring(s.length()-1-k+1));
-                }
-
-            System.out.println(splitted);
-            smallest= String.valueOf(splitted.stream().
-                    sorted().findFirst());
-            largest= String.valueOf(splitted.stream().
-                    sorted(Comparator.comparing(t -> t.toString().charAt(0)).
-                            reversed()).findFirst());
-
-
-            return smallest + "\n" + largest;
+        for (int i = 1; i-1+k <s.length() ; i++) {
+        list.add(s.substring(i-1, i-1+k));
         }
+        for (int i = s.length()-1; i >=0 ; i--) {
+        list.add(s.substring(s.length()-1-k+1));
+        }
+        for (int i = 0; i < ; i++) {
+
+        }
+        System.out.println(list);
 
 
-
-
-
-
-    }
-
+        for (int i = 0; i <1; i++) {
+        largest=list.get(i);
+        for (int j = 0; j < list.size() ; j++) {
+        if (largest.charAt(0)<list.get(j).charAt(0)) {
+        largest=list.get(j);
+        }else if (largest.charAt(0)==list.get(j).charAt(0)){
+        if(largest.charAt(1)<list.get(j).charAt(1)){
+        largest=list.get(j);
+        }
+        }
+        }
+        }
+        for (int i = 0; i < 1; i++) {
+        smallest=list.get(i);
+        for (int j = 0; j < list.size() ; j++) {
+        if (smallest.charAt(0) > list.get(j).charAt(0)) {
+        smallest = list.get(j);
+        } else if (smallest.charAt(0) == list.get(j).charAt(0)) {
+        if (smallest.charAt(1) > list.get(j).charAt(1)) {
+        smallest = list.get(j);
+        }
+        }
+        }
+        }
+        return smallest + "\n" + largest;
+        }*/
